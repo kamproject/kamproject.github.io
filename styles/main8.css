@@ -26,3 +26,15 @@ header img{
 main{
     clear: left;
 }
+main h3{
+    clear: left;
+    margin-top: 3em;
+    font-size: 105%;
+}
+#list{
+    line-height: 1.5em;
+}
+footer.copyright p{
+    text-align: center;
+    font-size: 80%;
+} 
