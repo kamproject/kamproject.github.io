@@ -7,6 +7,12 @@ body{
     width: 1000px;
     background-color: greenyellow;
     margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background-color: url("/images/cowboys.png") right repeat-y;
+    background-attachment: fixed;
 }
 a:hover, a:focus{
     font-style: italic;
