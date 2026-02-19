@@ -71,5 +71,13 @@ aside{
 footer{
     clear: both;
     border-top: 2px solid magenta;
-    
+
+}
+p.fixe{
+    position: fixed;
+    width: auto;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #ffebc6;
 }
