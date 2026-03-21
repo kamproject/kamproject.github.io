@@ -1,8 +1,68 @@
 body{
     width: 95%;
     margin: 15px auto;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border: 2px solid blue;
-    background-image: url("your-watermark.jpg");
+    background-image: url(images/shsu.jpg);
     background-attachment: fixed;
+}
+
+.one-nav{
+    background-color: blue;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid blue;
+}
+
+.one-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+article {
+    width: 75%;
+    padding-right: 5%;
+    border-right: 3px dashed blue;
+}
+
+aside {
+    width: 20%;
+    position: fixed;
+    right: 5%;
+    top: 25%;
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid navy;
+}
+
+aside ol { list-style-type: upper-roman; }
+aside ul { list-style-type: disc; }
+aside ol ol { list-style-type: lower-alpha; }
+
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    margin-right: 8px;
+}
+
+article img {
+    float: left;
+    margin: 15px;
+    width: 200px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 2px solid blue;
+    padding: 20px;
 }
