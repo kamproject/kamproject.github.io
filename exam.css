@@ -1,0 +1,8 @@
+body{
+    width: 95%;
+    margin: 15px auto;
+    font-family: Arial, sans-serif;
+    border: 2px solid blue;
+    background-image: url("your-watermark.jpg");
+    background-attachment: fixed;
+}
