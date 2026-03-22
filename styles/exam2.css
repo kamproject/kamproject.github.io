@@ -42,9 +42,9 @@ article section {
 
 article section {
     border-left: 3px dashed blue;
-    padding-left: 30px; /* Space between the line and your text */
+    padding-left: 30px;
     margin-bottom: 30px;
-    margin-left: 20px;   /* Pulls the line in from the edge */
+    margin-left: 40px;
 }
 
 aside {
