@@ -1,4 +1,4 @@
-body{
+body {
     width: 95%;
     margin: 15px auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +38,13 @@ article section {
     border-left: 3px dashed blue;
     padding-left: 20px;
     margin-bottom: 30px;
+}
+
+article section {
+    border-left: 3px dashed blue;
+    padding-left: 30px; /* Space between the line and your text */
+    margin-bottom: 40px; /* Space between sections */
+    margin-left: 20px;   /* Pulls the line in from the edge */
 }
 
 aside {
