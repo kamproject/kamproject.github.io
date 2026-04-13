@@ -92,39 +92,33 @@ section a {
     color: white;
 }
 
-/* Hover and current page link styles */
 .menu a:hover, a.current {
     text-decoration: underline;
 }
 
-/* 8. Article padding */
 article {
     padding: 0 1em;
 }
 
-/* 9. Article heading font size */
 article h2 {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
-/* 10. Article paragraph font size */
 article p {
-    font-size: 1em;
+    font-size: .8em;
 }
 
-/* 11. Image styling to center and make responsive */
 article img {
     margin: auto;
-    display: block; /* Required for auto margin to work on images */
+    display: block;
     width: 100%;
-    max-width: 760px; /* Adjust this px based on your image size */
+    max-width: 760px;
 }
 
-/* 12. Footer styling */
 footer {
-    border-top: 2px solid #f46b45; /* Matches the orange in your nav gradient */
+    border-top: 1px solid #f46b45;
     text-align: center;
-    font-size: .8em;
+    font-size: .6em;
 }
 
 /*13*/
@@ -171,3 +165,4 @@ footer {
 .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
 }
+
