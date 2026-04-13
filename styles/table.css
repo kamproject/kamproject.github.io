@@ -45,18 +45,47 @@ table.second thead tr:first-child{
 }
 
 
-table.third td {
-    vertical-align: top; /* Aligns Category numbers to the top */
-    padding: 5px;
+/* General Table Settings */
+table.third {
+    width: 100%; /* Adjust width to preference */
+    border-collapse: collapse; /* Essential for clean lines between cells */
+    text-align: left; /* Left align text */
 }
 
-/* Specific borders using nth-child */
-table.third thead tr:first-child {
-    border-top: 2px solid orangered;
+/* Header Styling (Row 1 & 2) */
+table.third thead tr {
+    background-color: lightgreen; /* Applies the green background color */
 }
 
-table.third thead tr:last-child {
-    border-bottom: 1px solid black;
+table.third thead th {
+    padding: 10px; /* Add space around the text */
+    font-weight: bold;
+    color: black;
+}
+
+/* Specific borders using nth-child selectors */
+table.third thead tr:first-child th {
+    border-top: 2px solid orangered; /* Top orange line */
+    border-bottom: 2px solid orangered; /* Lower orange line of the green box */
+}
+
+/* Title row specific: Center and bold */
+table.third thead tr:first-child th {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* Body Styling (Row 3 onwards) */
+table.third tbody td {
+    padding: 8px; /* Adds space inside data cells */
+    border: none; /* Make internal lines invisible */
+    /* Vertical-align: top ensures numbers align to the top of merged cells */
+    vertical-align: top; 
+}
+
+/* Final bottom orange line */
+table.third tbody tr:last-child {
+    border-bottom: 2px solid orangered;
 }
 
 @media only screen and (max-width: 425px) {
