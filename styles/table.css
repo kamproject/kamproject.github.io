@@ -51,13 +51,13 @@ table.third {
     text-align: left; 
 }
 
-/* Header Styling (Row 1 & 2) */
+
 table.third thead tr {
-    background-color: lightgreen; /* Applies the green background color */
+    background-color: lightgreen;
 }
 
 table.third thead th {
-    padding: 10px; /* Add space around the text */
+    padding: 10px;
     font-weight: bold;
     color: black;
 }
